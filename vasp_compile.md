@@ -94,19 +94,16 @@ make all
 
 git clone https://github.com/yangjio4849/TransOpt.git		
 
-cp /fs2/home/lizhenwar/software/TransOpt/for\_vasp.5.4.4/main.F\_for\_vk main.F
-
-cp /fs2/home/lizhenwar/software/TransOpt/for\_vasp.5.4.4/getnabij.F .
-
 module purge
 
-module load module load abinit/9.6.2-icc19.0-mpi-x
+module load abinit/9.6.2-icc19.0-mpi-x
 
 bash omprun
 
 
 
 Then you can see derivation\* TransOpt\_2.0\* TransOpt\_omp\_2.0\*
+
 
 
 
